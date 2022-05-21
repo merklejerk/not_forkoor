@@ -1,0 +1,17 @@
+{
+    "name": "not_forkoor",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "soluble compile -O build contracts/**.sol"
+    },
+    "dependencies": {
+        "bignumber.js": "^9.0.2",
+        "colors": "^1.4.0",
+        "flex-contract": "^2.4.9",
+        "flex-ether": "^1.10.7",
+        "solc": "^0.8.14-fixed",
+        "soluble": "^1.2.0"
+    }
+}
